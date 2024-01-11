@@ -1,0 +1,21 @@
+<!-- templates/tasks.html -->
+{% extends 'base.html' %}
+
+{% block title %}Task Manager - Tasks{% endblock %}
+
+{% block header %}Tasks{% endblock %}
+
+{% block navigation %}
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('tasks') }}">Tasks</a></li>
+            <li><a href="{{ url_for('login') }}">Login</a></li>
+            <li><a href="{{ url_for('register') }}">Register</a></li>
+        </ul>
+    </nav>
+{% endblock %}
+
+{% block content %}
+    <!-- Your tasks content here -->
+{% endblock %}

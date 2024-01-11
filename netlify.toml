@@ -1,0 +1,4 @@
+# netlify.toml
+[build]
+  command = "python -m flask freeze"
+  publish = "build"
